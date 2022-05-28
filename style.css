@@ -1,0 +1,28 @@
+.form{
+  background-color: rgba(255, 255, 255, 0.954);
+  padding: 1em;
+  box-shadow: 2px 2px 7px -1px rgba(0, 0, 0, 0.75);
+}
+
+.form input, form textarea{
+  width: 100%;
+  border: 1px solid rgba(34, 36, 38, 38.15);
+  height: 50px;
+}
+
+form input[type="submit"]{
+  margin: 1em 0 0 0;
+  width: auto;
+}
+
+.button{
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.75em 1.5em;
+  transition: opacity .2s ease;
+}
+
+.button:hover{
+  opacity: .8;
+}
